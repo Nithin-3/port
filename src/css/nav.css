@@ -1,0 +1,135 @@
+
+.nmain {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1db954;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: #1db954;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none; 
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+}
+
+.hpac {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hpac button {
+ background:  linear-gradient(135deg, #1a1a1a, #292929);
+  color: #148f3d;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hpac button:hover {
+  background-color: #148f3d;
+  transform: scale(1.1);
+}
+
+.hpac button:focus {
+  outline: none;
+  box-shadow: 0 0 10px #1db954;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%; 
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(135deg, #292929, #121212);
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  transition: all 0.3s ease;
+  z-index: 2000;
+  border-left: 2px solid #1db954;
+}
+
+.sidebar.show {
+  right: 0; 
+}
+
+.sidebar button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #1db954;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.sidebar button:hover {
+  background-color: #1db954;
+  color: #121212;
+  transform: scale(1.05);
+}
+
+.sidebar button:focus {
+  outline: none;
+  box-shadow: 0 0 10px #1db954;
+}
+
+.sidebar-close {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  color: #1db954;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sidebar-close:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; 
+  }
+
+  .hpac {
+    display: none; 
+  }
+}

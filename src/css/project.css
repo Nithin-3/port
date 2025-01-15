@@ -1,0 +1,174 @@
+.projects-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    background: #1a1a1a;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .projects {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    padding: 20px;
+    width: auto; 
+    justify-content: flex-start; 
+    animation: slideUp 1s ease-in-out;
+  }
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .projects::-webkit-scrollbar {
+    display: none; 
+  }
+  .project-card {
+    background: linear-gradient(145deg, #292929, #333);
+    border: 1px solid #444;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px; 
+    height: auto; 
+    flex: none;
+    scroll-snap-align: center;
+    text-align: center;
+    transform: scale(0.95);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+
+  .project-card h3 {
+    margin-top: 0;
+    color: #1db954;
+    font-size: 1.2rem;
+  }
+  
+  .project-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    text-align: left; 
+    line-height: 1.4; 
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px; 
+    word-wrap: break-word; 
+    white-space: normal; 
+  }
+  .project-card p::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  .project-card p::-webkit-scrollbar-track {
+    background: #2c2c2c; 
+    border-radius: 10px; 
+  }
+  
+  .project-card p::-webkit-scrollbar-thumb {
+    background: #444; 
+    border-radius: 10px; 
+  }
+  
+  .project-card p::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+  }
+  .github-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .github-links a {
+    color: #1db954;
+    text-decoration: none;
+    margin-top: 2px;
+    font-size: 0.9rem;
+  }
+  
+  .github-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .project-card video {
+    width: 100%; 
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #1db954;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .scroll-button:hover {
+    background: #1db954;
+    color: #333;
+    transform: scale(1.1);
+  }
+  
+  .scroll-button.left {
+    left: 10px; 
+  }
+  
+  .scroll-button.right {
+    right: 10px; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .projects {
+      max-width: 100%; 
+      gap: 15px; 
+    }
+  
+    .project-card {
+      width: 250px;
+    }
+  
+    .scroll-button {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  }
+  

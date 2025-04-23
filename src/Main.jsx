@@ -41,13 +41,6 @@ function Main() {
               solutions.
             </p>
           </div>
-          <div className="service-card">
-            <h3>📊 Data Analytics</h3>
-            <p>
-              Performing data visualization and analysis with Python for better
-              insights.
-            </p>
-          </div>
         </div>
       </div>
     </div>

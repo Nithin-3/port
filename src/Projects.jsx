@@ -21,26 +21,40 @@ function Projects() {
   };
   const projectData = [
     {
-      name: "AI Movie Recommender",
-      description: "The AI Movie Suggestions and Watchlist is an intelligent mobile application developed using React Native, Mongoose, Express.js, and Python. This application leverages machine learning to provide personalized movie recommendations based on the storyline. By analyzing user preferences and employing a content-based filtering approach, the app suggests movies that closely align with individual tastes.In addition to recommending movies, the application offers a robust watchlist feature, enabling users to save movies for later viewing conveniently. The backend infrastructure, built with Express.js and Mongoose, ensures seamless data management and interaction with a MongoDB database. The Python-based machine learning model is the core of the recommendation engine, enhancing user engagement by delivering precise and meaningful suggestions.This project combines advanced AI techniques and a user-friendly interface, aiming to enhance the movie discovery experience for users worldwide.",
-      github: ["https://github.com/HITMAN-AK/mr_client", "https://github.com/HITMAN-AK/mr_server", "https://github.com/HITMAN-AK/mr_model"],
+      name: "pandaDoc - Anonymous chat app",
+      description: "A P2P-based anonymous chat app using WebRTC and React Native, ensuring private real-time communication.",
+      github: ["https://github.com/Nithin-3/pandaDoc"],
       video: "/video/mr.mp4",
-      links:["FRONT-END","BACK-END","ML-MODEL"]
+      links:["GitHub"]
     },
     {
-      name: "Real-Time Office Tracker",
-      description: "It is an innovative web-based platform designed to enhance public service access by providing accurate, real-time availability information for government officials. The system features dual portals: one for officials to manually update their availability and another for the public to view this information conveniently. By integrating computer vision technology (cv2), the platform automates the monitoring of office spaces, ensuring reliable and up-to-date availability data. This solution addresses inefficiencies in traditional methods, reduces manual errors, and improves transparency. Citizens can now save time and resources by checking officials' availability before visiting government offices, while officials benefit from a streamlined process for updating their status. Ultimately, the Real-Time Office Availability Tracker fosters a more efficient and accessible public service environment, bridging the gap between officials and citizens through technology.",
-      github: ["https://github.com/HITMAN-AK/edc_client", "https://github.com/HITMAN-AK/private_checker", "https://github.com/HITMAN-AK/edc_server"],
+      name: "t2t – Omegle Clone",
+      description: "A personal project: real-time video/text chat web app inspired by Omegle, built with React and WebRTC.",
+      github: ["https://github.com/Nithin-3/t2t"],
       video: "/video/oa.mp4",
-      links:["PUBLIC-PORTAL(FRONTEND)","OFFICIAL-PORTAL(FRONTEND)","BACK-END"]
+      links:["GitHub"]
     },
     {
-      name: "Esports Gaming Platform",
-      description: "GamingHub is an innovative esports platform that offers gamers an opportunity to compete in thrilling matches across various titles. Players can participate in competitions with a simple entry fee and win real cash prizes for achievements like match victories, top spots, and individual kills. Hosts can also curate events and earn revenue, creating a dynamic ecosystem for all involved. With a focus on secure transactions and a seamless experience, GamingHub ensures a rewarding and immersive platform for both players and hosts. Join today to level up your esports experience!",
-      github: ["https://github.com/HITMAN-AK/gh_cli", "https://github.com/HITMAN-AK/gh_ser", "https://gaminghub.vercel.app/"],
-      video: "/video/gh.mp4",
-      links:["FRONT-END","BACK-END","WEBSITE-LINK"]
+      name: "Checker – Staff Availability Tool",
+      description: "Web tool to show staff availability (e.g., college or govt office) and track leave status.",
+      github: ["https://github.com/HITMAN-AK/private_checker/"],
+      video: "/video/oa.mp4",
+      links:["GitHub"]
     },
+        {
+            name:"shell shript - Reverse shell scritp for RAT",
+            description:"A tool to have remote access to desktop through the internet connection",
+            github: ["https://github.com/Nithin-3/shell-shript"],
+            video:"",
+            links:["GitHub"]
+        },
+        {
+            name:"IMG2Wave - a tool to convert image file to audio file",
+            description:"A tool that converts images to audio files can also modify metadata, such as embedding hidden information or altering existing data, similar to how steganography works, allowing for secure and discreet data storage within the audio file.",
+            github:["https://github.com/Nithin-3/IMG2WAVE"],
+            video:"",
+            links:["github"]
+        }
   ];
 
   return (

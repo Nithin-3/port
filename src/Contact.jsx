@@ -11,24 +11,24 @@ function Contact() {
       </p>
       <ul className="contact-list">
         <li>
-          <a href="tel:+919360301982" className="contact-item">
-            <span className="contact-item-icon">📞</span> Mobile: +91 9360301982
+          <a href="tel:+917639824119" className="contact-item">
+            <span className="contact-item-icon">📞</span> Mobile: +91 7639824119
           </a>
         </li>
         <li>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=legendaryairforce@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nithin3dev@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             class="contact-item"
           >
             <span class="contact-item-icon">📧</span> Gmail:
-            legendaryairforce@gmail.com
+            nithin3dev@gmail.com
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/HITMAN-AK"
+            href="https://github.com/Nithin-3"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-item"
@@ -38,7 +38,7 @@ function Contact() {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/ashwinkumarr--/"
+            href="https://www.linkedin.com/in/nithin03/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-item"

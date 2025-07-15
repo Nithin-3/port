@@ -7,7 +7,7 @@ import About from "./About";
 import Contact from "./Contact";
 function App() {
   return (
-    <div>
+    <>
       <Nav />
       <Routes>
         <Route path="/" element={<Main />}></Route>
@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-    </div>
+    </>
   );
 }
 export default App;

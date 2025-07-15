@@ -6,17 +6,17 @@ function Main() {
       <div className="home-profile">
         <img
           src="/image/myp.jpg"
-          alt="Ashwin Kumar R"
+          alt="Nithin"
           className="profile-img"
         />
       </div>
       <div className="home-content">
         <h1>
-        Welcome to my Codebase, I'm <span className="highlight">Ashwin Kumar</span>
+        Welcome to my Codebase, I'm <span className="highlight">Nithin</span>
         </h1>
         <p className="intro">
           Full-Stack Web and App Developer | Machine Learning Integration
-          Specialist
+          Specialist | Game Developer
         </p>
         <h2 className="services-heading">Code I Craft</h2>
         <div className="services-cards">
@@ -33,6 +33,10 @@ function Main() {
               Creating responsive websites using React.js, Express.js, and
               MongoDB.
             </p>
+          </div>
+          <div className="service-card">
+            <h3>🎮 Game Development</h3>
+            <p>I create 2D and 3D games using Unity and Godot, incorporating physics for realistic interactions.</p>
           </div>
           <div className="service-card">
             <h3>🤖 Machine Learning</h3>

@@ -24,21 +24,21 @@ function Projects() {
       name: "pandaDoc - Anonymous chat app",
       description: "A P2P-based anonymous chat app using WebRTC and React Native, ensuring private real-time communication.",
       github: ["https://github.com/Nithin-3/pandaDoc"],
-      video: "port/video/mr.mp4",
+      video: "/port/video/mr.mp4",
       links:["GitHub"]
     },
     {
       name: "t2t – Omegle Clone",
       description: "A personal project: real-time video/text chat web app inspired by Omegle, built with React and WebRTC.",
       github: ["https://github.com/Nithin-3/t2t","https://Nithin-3.github.io/t2t/"],
-      video: "port/video/t2t.mp4",
+      video: "/port/video/t2t.mp4",
       links:["GitHub","web"]
     },
     {
       name: "Checker – Staff Availability Tool",
       description: "Web tool to show staff availability (e.g., college or govt office) and track leave status.",
       github: ["https://github.com/HITMAN-AK/private_checker/"],
-      video: "port/video/oa.mp4",
+      video: "/port/video/oa.mp4",
       links:["GitHub"]
     },
         {

@@ -11,7 +11,7 @@ function Nav() {
   };
 
   const navigateTo = (path) => {
-    navigate(path);
+    navigate(`port${path}`);
     setIsSidebarOpen(false); 
   };
 

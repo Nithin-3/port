@@ -30,9 +30,9 @@ function Projects() {
     {
       name: "t2t – Omegle Clone",
       description: "A personal project: real-time video/text chat web app inspired by Omegle, built with React and WebRTC.",
-      github: ["https://github.com/Nithin-3/t2t"],
-      video: "/video/oa.mp4",
-      links:["GitHub"]
+      github: ["https://github.com/Nithin-3/t2t","https://Nithin-3.github.io/t2t/"],
+      video: "/video/t2t.mp4",
+      links:["GitHub","web"]
     },
     {
       name: "Checker – Staff Availability Tool",

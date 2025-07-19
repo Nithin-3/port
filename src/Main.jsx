@@ -5,7 +5,7 @@ function Main() {
     <div className="home container">
       <div className="home-profile">
         <img
-          src="/image/myp.jpg"
+          src="port/image/myp.jpg"
           alt="Nithin"
           className="profile-img"
         />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./css/nav.css";
 import { useNavigate } from "react-router";
 
@@ -15,6 +15,9 @@ function Nav() {
     setIsSidebarOpen(false); 
   };
 
+    useEffect(()=>{
+        navigateTo('/')
+    },[])
   return (
     <div className="nmain">
       <div className="logo">Portfolio</div>

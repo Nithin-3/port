@@ -10,10 +10,10 @@ function App() {
         <BrowserRouter>
             <Nav />
             <Routes>
-                <Route path="port/" element={<Main />}></Route>
-                <Route path="port/projects" element={<Projects />}></Route>
-                <Route path="port/about" element={<About />}></Route>
-                <Route path="port/contact" element={<Contact />}></Route>
+                <Route path="/port/" element={<Main />}></Route>
+                <Route path="/port/projects" element={<Projects />}></Route>
+                <Route path="/port/about" element={<About />}></Route>
+                <Route path="/port/contact" element={<Contact />}></Route>
             </Routes>
         </BrowserRouter>
   );

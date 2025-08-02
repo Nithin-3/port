@@ -41,8 +41,8 @@ function About() {
         </div>
 
         <a
-          href="/certificates/Resume.pdf"
-          download="Resume.pdf"
+          href="/port/NITHIN-FlowCV-Resume-20250802.pdf"
+          download="Nithin-Resume.pdf"
           className="resume-btn"
         >
           Access My Professional Resume
